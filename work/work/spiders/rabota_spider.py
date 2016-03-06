@@ -14,6 +14,7 @@ class RabotaSpider(Spider):
     start_urls = [u'http://rabota.ua/jobsearch/vacancy_list']
 
     def __init__(self, searchterm='', *args, **kwargs):
+        self.searchterm = searchterm
         super(RabotaSpider, self).__init__(*args, **kwargs)
         self.start_urls = ['{}?keyWords={}'.format(self.start_urls[0], searchterm)]
 
@@ -23,7 +24,7 @@ class RabotaSpider(Spider):
         last_page = 5
         if last_page:
             for page in range(1, last_page+1):
-                url = u'{}&pg={}'.format(self.start_urls[0], page)
+                url = '{}&pg={}'.format(self.start_urls[0], page)
                 yield Request(url, self.parse_page)
 
     def parse_page(self, response):
