@@ -19,6 +19,7 @@ class WorkSpider(scrapy.Spider):
     ]
 
     def __init__(self, searchterm='', *args, **kwargs):
+        self.searchterm = searchterm
         super(WorkSpider, self).__init__(*args, **kwargs)
         self.start_urls = ['{}jobs-{}/'.format(self.start_urls[0], searchterm)]
 

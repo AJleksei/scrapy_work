@@ -14,6 +14,11 @@ BOT_NAME = 'work'
 SPIDER_MODULES = ['work.spiders']
 NEWSPIDER_MODULE = 'work.spiders'
 
+SPIDERS = [
+    'work',
+    'rabota',
+    'hh'
+]
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'work (+http://www.yourdomain.com)'
@@ -61,9 +66,11 @@ NEWSPIDER_MODULE = 'work.spiders'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'work.pipelines.SomePipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'work.pipelines.CsvPipeline': 300,
+}
+
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
