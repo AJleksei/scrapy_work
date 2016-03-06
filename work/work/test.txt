@@ -1,0 +1,75 @@
+page=1
+vacancy = Senior PHP-программист salary =  40000 грн link = /jobs/1063290/
+vacancy = PHP-программист salary =  35000 грн link = /jobs/1241946/
+vacancy = Front-end-разработчик salary =  35000 грн link = /jobs/1597895/
+vacancy = Junior Game Developer (C++) salary = [] link = /jobs/1996594/
+vacancy = Game Developer (C++) salary = [] link = /jobs/1703246/
+vacancy = Senior Magento PHP Developer salary =  40000 грн link = /jobs/2077586/
+vacancy = Senior Python Software Engineer salary = [] link = /jobs/2088710/
+vacancy = Инженер-программист (.NET, C#, ASP, MVC, SQL) salary = [] link = /jobs/1935054/
+vacancy = Android developer salary = [] link = /jobs/2088329/
+vacancy = Middle, Senior Ruby on Rails-разработчик salary = [] link = /jobs/1881285/
+vacancy = Программист PHP salary =  15000 грн link = /jobs/2093051/
+vacancy = Full stack Web Developer salary = [] link = /jobs/748692/
+vacancy = Java Developer salary = [] link = /jobs/2095063/
+vacancy = Программист 1С salary =  15000 грн link = /jobs/2094294/
+page=5
+vacancy = Python-разработчик salary = [] link = /jobs/2097038/
+vacancy = Программист 1C salary =  26000 грн link = /jobs/2097022/
+vacancy = Web-разработчик salary =  13000 грн link = /jobs/1964083/
+vacancy = JavaScript/HTML (FrontEnd) developer salary =  30000 грн link = /jobs/2039862/
+vacancy = Ведущий разработчик JavaScript (Node. js) salary = [] link = /jobs/1139873/
+vacancy = Java Developer (to Germany) salary = [] link = /jobs/2096890/
+vacancy = Программист 1С salary =  3000 грн link = /jobs/2096897/
+vacancy = .Net Developer for Survalyzer salary = [] link = /jobs/2018461/
+vacancy = PHP-программист salary = [] link = /jobs/1950880/
+vacancy = Программист salary =  5000 грн link = /jobs/2096854/
+vacancy = Программист 1С salary =  15000 грн link = /jobs/2065608/
+vacancy = Программист, HTML-кодер salary = [] link = /jobs/2054687/
+vacancy = Java developer salary = [] link = /jobs/933001/
+vacancy = Flash/Flex developer salary = [] link = /jobs/865772/
+page=4
+vacancy = Full-stuck Web developer salary = [] link = /jobs/1789759/
+vacancy = Разработчик приложений под IOS salary = [] link = /jobs/2080769/
+vacancy = Senior Front-end Developer salary = [] link = /jobs/1990016/
+vacancy = Front-End Developer (в Ужгород) salary = [] link = /jobs/1949858/
+vacancy = Web developer salary = [] link = /jobs/763594/
+vacancy = Front-End Developer salary = [] link = /jobs/1442108/
+vacancy = Front-End Developer (в Ужгород) salary = [] link = /jobs/1949873/
+vacancy = Front-End Developer (в Ужгород) salary = [] link = /jobs/1949867/
+vacancy = Web Developer salary = [] link = /jobs/1284769/
+vacancy = Front-End Developer (в Ужгород) salary = [] link = /jobs/1949861/
+vacancy = Front-End Developer salary = [] link = /jobs/1465110/
+vacancy = Web-программист salary =  8000 грн link = /jobs/1377792/
+vacancy = PHP Programmer (Magento CMS) salary =  27000 грн link = /jobs/2097083/
+vacancy = Junior Web Developer, graphic Designer salary =  6400 грн link = /jobs/2097065/
+page=3
+vacancy = Senior Magento PHP Developer salary =  40000 грн link = /jobs/2088177/
+vacancy = HTML-, CSS-разработчик (интеграция верстки в различные CMS) salary =  30000 грн link = /jobs/2066063/
+vacancy = Junior PHP programmer salary = [] link = /jobs/543397/
+vacancy = Программист 1С salary = [] link = /jobs/2087980/
+vacancy = Middle PHP-программист salary = [] link = /jobs/1961017/
+vacancy = Программист PHP salary =  13000 грн link = /jobs/2097216/
+vacancy = Junior PHP developer salary = [] link = /jobs/2097215/
+vacancy = Middle JavaScript developer salary = [] link = /jobs/1934393/
+vacancy = Программист (стажер) salary = [] link = /jobs/1742779/
+vacancy = Java-разработчик salary = [] link = /jobs/1148699/
+vacancy = Junior JavaScript developer, AngularJS salary = [] link = /jobs/1986883/
+vacancy = Unity 3D developer salary = [] link = /jobs/1831953/
+vacancy = Senior Wordpress developer salary =  30000 грн link = /jobs/2088133/
+vacancy = PHP Developer (Wordpress highload optimization, customization) salary = [] link = /jobs/2065825/
+page=2
+vacancy = Front-end developer salary =  30000 грн link = /jobs/2094127/
+vacancy = Технолог-программист металлообработки на ЧПУ станках salary =  6500 грн link = /jobs/2093908/
+vacancy = Senior Web Developer salary = [] link = /jobs/1802069/
+vacancy = Программист 1С salary =  18000 грн link = /jobs/1709441/
+vacancy = Front-end разработчик, HTML-верстальщик salary =  8000 грн link = /jobs/2092796/
+vacancy = Java Developer salary = [] link = /jobs/761806/
+vacancy = Java Web developer salary = [] link = /jobs/2052763/
+vacancy = Junior PHP developer (Strong Intern) salary = [] link = /jobs/2044747/
+vacancy = Программист 1C salary = [] link = /jobs/955202/
+vacancy = Junior PHP developer salary =  12000 грн link = /jobs/2085498/
+vacancy = Senior Developer, программист ASP.NET MVC, WebForms/C# salary = [] link = /jobs/1525371/
+vacancy = Senior PHP Developer, ведущий программист salary = [] link = /jobs/1526335/
+vacancy = Developer salary =  40000 грн link = /jobs/2089683/
+vacancy = Программист в интернет-магазин salary = [] link = /jobs/1586826/
