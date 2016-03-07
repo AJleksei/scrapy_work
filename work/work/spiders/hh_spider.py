@@ -11,7 +11,7 @@ from scrapy.http import HtmlResponse
 
 vacancy_count_re = re.compile(r'(\d+)')
 
-class WorkSpider(scrapy.Spider):
+class HHSpider(scrapy.Spider):
     name = "hh"
     allowed_domains = ["hh.ua"]
     start_urls = [
@@ -20,7 +20,7 @@ class WorkSpider(scrapy.Spider):
 
     def __init__(self, searchterm='', *args, **kwargs):
         self.searchterm = searchterm
-        super(WorkSpider, self).__init__(*args, **kwargs)
+        super(HHSpider, self).__init__(*args, **kwargs)
         self.start_urls = ['{}search/vacancy?text={}&area=5'.format(self.start_urls[0], searchterm)]
 
     def parse(self, response):
