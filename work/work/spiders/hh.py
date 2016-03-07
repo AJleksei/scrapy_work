@@ -24,8 +24,11 @@ class WorkSpider(scrapy.Spider):
         self.start_urls = ['{}search/vacancy?text={}&area=5'.format(self.start_urls[0], searchterm)]
 
     def parse(self, response):
-        vacancy_count = response.xpath("//*[@class='resumesearch__result-count']/text()").extract()[0]
-        pages = int(vacancy_count_re.findall(vacancy_count)[0]) / 20
+        vacancy_count = response.xpath("//*[@class='resumesearch__result-count']/text()").extract()
+        pages = 0
+        if vacancy_count:
+            vacancy_count = vacancy_count[0]
+            pages = int(''.join(vacancy_count_re.findall(vacancy_count))) / 20
         for i in range(pages + 1):
             url = '{}&page={}'.format(self.start_urls[0], i)
             yield scrapy.Request(url, callback=self.parse_contents)
@@ -41,7 +44,7 @@ class WorkSpider(scrapy.Spider):
             work_item['vacancy'] = element.xpath('div/div/div/a/text()').extract()[0].strip()
             work_item['link'] = element.xpath('div/div/div/a/@href').extract()[0].strip()
             work_item['salary'] = ''
-            salary = element.xpath("div/div/div[@class='b-vacancy-list-salary']").extract()
+            salary = element.xpath("div/div/div[@class='b-vacancy-list-salary']/text()").extract()
             if salary:
                 work_item['salary'] = salary[0].strip()
             yield work_item

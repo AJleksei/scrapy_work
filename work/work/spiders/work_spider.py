@@ -25,10 +25,11 @@ class WorkSpider(scrapy.Spider):
 
     def parse(self, response):
         pages = response.xpath('//*[@id="center"]/div/div/div/nav/ul/li[last()-1]/a/text()').extract()
+        last_page = 0
         if pages:
-            pages = int(pages[0])
-        #pages = 5
-        for i in range(1, pages):
+            last_page = int(pages[0])
+        #last_page = 5
+        for i in range(1, last_page):
             url = '{}?days=125&page={}'.format(self.start_urls[0], i)
             yield scrapy.Request(url, callback=self.parse_contents)
 

@@ -20,8 +20,10 @@ class RabotaSpider(Spider):
 
     def parse(self, response):
         pages = response.xpath('//tr[@class="vlp"]/td/dl/dd').extract()
-        last_page = int(last_page_re.findall(pages[-2])[0])
-        last_page = 5
+        last_page = 0
+        if pages:
+            last_page = int(last_page_re.findall(pages[-2])[0])
+        #last_page = 5
         if last_page:
             for page in range(1, last_page+1):
                 url = '{}&pg={}'.format(self.start_urls[0], page)
